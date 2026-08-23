@@ -1,0 +1,42 @@
+Aug 22 19:20:42.860 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Aug 22 19:20:42.860 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 38579.
+Aug 22 19:20:42.864 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 22 19:20:42.865 HYPERVISOR: exec_cmd: hypervisor working_dir /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips 
+Aug 22 19:20:42.865 GENERAL: working_dir=/home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips
+Aug 22 19:20:42.865 HYPERVISOR: exec_cmd: hypervisor working_dir /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/2d673843-e847-4eb2-812c-f9ece277ebaa 
+Aug 22 19:20:42.865 GENERAL: working_dir=/home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/2d673843-e847-4eb2-812c-f9ece277ebaa
+Aug 22 19:20:42.865 HYPERVISOR: exec_cmd: vm create R1 1 c3745 
+Aug 22 19:20:42.865 VM: VM R1 created.
+Aug 22 19:20:42.866 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Aug 22 19:20:42.866 HYPERVISOR: exec_cmd: c3745 get_mac_addr R1 
+Aug 22 19:20:42.866 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Aug 22 19:20:42.866 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 22 19:20:42.866 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60aa1da0 
+Aug 22 19:20:42.867 HYPERVISOR: exec_cmd: vm set_ios R1 /home/oziev/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.bin 
+Aug 22 19:20:42.867 HYPERVISOR: exec_cmd: c3745 set_mac_addr R1 c401.06a6.0000 
+Aug 22 19:20:42.867 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Aug 22 19:20:42.868 HYPERVISOR: exec_cmd: vm set_ram R1 256 
+Aug 22 19:20:48.223 HYPERVISOR: exec_cmd: nio create_udp udp-39a8e95d-7948-426a-b308-af73e8c6a6c5 10002 127.0.0.1 10003 
+Aug 22 19:20:48.434 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-39a8e95d-7948-426a-b308-af73e8c6a6c5 
+Aug 22 19:20:48.435 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 22 19:22:27.973 HYPERVISOR: exec_cmd: vm set_ghost_status R1 2 
+Aug 22 19:22:27.973 HYPERVISOR: exec_cmd: vm set_ghost_file R1 /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/c3745-adventerprisek9-mz.124-25.bin-256.ghost 
+Aug 22 19:22:27.974 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 22 19:22:27.974 HYPERVISOR: exec_cmd: vm set_config R1 configs/i1_startup-config.cfg 
+Aug 22 19:22:27.974 HYPERVISOR: exec_cmd: vm start R1 
+Aug 22 19:27:58.227 HYPERVISOR: exec_cmd: vm extract_config R1 
+Aug 22 19:27:58.230 HYPERVISOR: exec_cmd: vm extract_config R1 
+Aug 22 19:35:11.793 HYPERVISOR: exec_cmd: nio bind_filter udp-39a8e95d-7948-426a-b308-af73e8c6a6c5 2 capture 
+Aug 22 19:35:11.793 HYPERVISOR: exec_cmd: nio setup_filter udp-39a8e95d-7948-426a-b308-af73e8c6a6c5 2 en10mb /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/captures/R1_FastEthernet00_to_R2_FastEthernet00.pcap 
+Aug 22 19:40:08.541 HYPERVISOR: exec_cmd: nio unbind_filter udp-39a8e95d-7948-426a-b308-af73e8c6a6c5 2 
+Aug 22 19:41:13.957 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 22 19:41:13.957 HYPERVISOR: exec_cmd: vm stop R1 
+Aug 22 19:41:14.002 VM: VM R1 shutdown.
+Aug 22 19:41:14.002 HYPERVISOR: exec_cmd: vm extract_config R1 
+Aug 22 19:41:35.213 HYPERVISOR: exec_cmd: vm get_status R1 
+Aug 22 19:41:35.213 HYPERVISOR: exec_cmd: vm extract_config R1 
+Aug 22 19:41:35.214 HYPERVISOR: exec_cmd: vm delete R1 
+Aug 22 19:41:35.214 VM: VM R1 destroyed.
+Aug 22 19:41:35.215 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 22 19:41:35.704 HYPERVISOR: Stopped.
+Aug 22 19:41:35.704 GENERAL: reset done.

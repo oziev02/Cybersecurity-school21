@@ -1,0 +1,56 @@
+Aug 22 19:20:42.889 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Aug 22 19:20:42.889 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 47059.
+Aug 22 19:20:42.897 HYPERVISOR: exec_cmd: hypervisor version 
+Aug 22 19:20:42.897 HYPERVISOR: exec_cmd: hypervisor working_dir /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips 
+Aug 22 19:20:42.897 GENERAL: working_dir=/home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips
+Aug 22 19:20:42.897 HYPERVISOR: exec_cmd: hypervisor working_dir /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/6cfe96ed-61f9-4cfc-99e9-c5192eb23fa7 
+Aug 22 19:20:42.897 GENERAL: working_dir=/home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/6cfe96ed-61f9-4cfc-99e9-c5192eb23fa7
+Aug 22 19:20:42.898 HYPERVISOR: exec_cmd: vm create R2 2 c3745 
+Aug 22 19:20:42.898 VM: VM R2 created.
+Aug 22 19:20:42.898 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5001 
+Aug 22 19:20:42.898 HYPERVISOR: exec_cmd: c3745 get_mac_addr R2 
+Aug 22 19:20:42.898 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Aug 22 19:20:42.898 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 22 19:20:42.899 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60aa1da0 
+Aug 22 19:20:42.899 HYPERVISOR: exec_cmd: vm set_ios R2 /home/oziev/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.bin 
+Aug 22 19:20:42.899 HYPERVISOR: exec_cmd: c3745 set_mac_addr R2 c402.1ea8.0000 
+Aug 22 19:20:42.899 HYPERVISOR: exec_cmd: vm set_nvram R2 256 
+Aug 22 19:20:42.899 HYPERVISOR: exec_cmd: vm set_ram R2 256 
+Aug 22 19:20:48.446 HYPERVISOR: exec_cmd: nio create_udp udp-1cd70a10-22f9-4f98-84be-17724ad2b131 10004 127.0.0.1 10005 
+Aug 22 19:20:48.657 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-1cd70a10-22f9-4f98-84be-17724ad2b131 
+Aug 22 19:20:48.657 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 22 19:22:27.523 HYPERVISOR: exec_cmd: vm create Ghost 0 c3745 
+Aug 22 19:22:27.523 VM: VM Ghost created.
+Aug 22 19:22:27.523 HYPERVISOR: exec_cmd: vm set_ios Ghost /home/oziev/GNS3/images/IOS/c3745-adventerprisek9-mz.124-25.bin 
+Aug 22 19:22:27.524 HYPERVISOR: exec_cmd: vm set_ghost_status Ghost 1 
+Aug 22 19:22:27.524 HYPERVISOR: exec_cmd: vm set_ghost_file Ghost /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/c3745-adventerprisek9-mz.124-25.bin-256.ghost 
+Aug 22 19:22:27.525 HYPERVISOR: exec_cmd: vm set_ram Ghost 256 
+Aug 22 19:22:27.525 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 22 19:22:27.527 HYPERVISOR: exec_cmd: vm set_config Ghost configs/i0_startup-config.cfg 
+Aug 22 19:22:27.528 HYPERVISOR: exec_cmd: vm start Ghost 
+Aug 22 19:22:27.811 HYPERVISOR: exec_cmd: vm get_status Ghost 
+Aug 22 19:22:27.812 HYPERVISOR: exec_cmd: vm stop Ghost 
+Aug 22 19:22:27.969 VM: VM Ghost shutdown.
+Aug 22 19:22:27.969 HYPERVISOR: exec_cmd: vm extract_config Ghost 
+Aug 22 19:22:27.970 HYPERVISOR: exec_cmd: vm clean_delete Ghost 
+Aug 22 19:22:27.970 VM: VM Ghost destroyed.
+Aug 22 19:22:27.972 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Aug 22 19:22:27.972 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/oziev/Desktop/CbS1_Networking_basics_Part_1.ID_1521088-1/src/gns3/project-files/dynamips/c3745-adventerprisek9-mz.124-25.bin-256.ghost 
+Aug 22 19:22:27.972 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 22 19:22:27.973 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Aug 22 19:22:27.973 HYPERVISOR: exec_cmd: vm start R2 
+Aug 22 19:28:28.229 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 22 19:28:28.232 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 22 19:29:58.237 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 22 19:29:58.240 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 22 19:41:13.956 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 22 19:41:13.957 HYPERVISOR: exec_cmd: vm stop R2 
+Aug 22 19:41:14.005 VM: VM R2 shutdown.
+Aug 22 19:41:14.006 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 22 19:41:35.415 HYPERVISOR: exec_cmd: vm get_status R2 
+Aug 22 19:41:35.415 HYPERVISOR: exec_cmd: vm extract_config R2 
+Aug 22 19:41:35.416 HYPERVISOR: exec_cmd: vm delete R2 
+Aug 22 19:41:35.416 VM: VM R2 destroyed.
+Aug 22 19:41:35.416 HYPERVISOR: exec_cmd: hypervisor stop 
+Aug 22 19:41:35.725 HYPERVISOR: Stopped.
+Aug 22 19:41:35.725 GENERAL: reset done.
