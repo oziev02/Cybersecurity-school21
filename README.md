@@ -90,24 +90,6 @@ Cybersecurity-school21/
 
 ---
 
-## Roadmap
-
-- [x] Инициализация репозитория
-- [x] Networking basics · Part 1 ✅
-- [ ] Networking basics · следующие части
-- [ ] Последующие модули кибербезопасности Школы 21
-- [ ] Сводка полезных материалов и ссылок
-
----
-
-## Полезные ссылки
-
-- [Школа 21](https://21-school.ru)
-- [Сообщество Cybersec 21 · RocketChat](https://rocketchat-student.21-school.ru/channel/cybersec_21)
-- [Telegram · коммуникация](https://t.me/+r5wufz8L3mUzOGUy)
-
----
-
 <div align="center">
 
 ### Made with ☕ and curiosity
