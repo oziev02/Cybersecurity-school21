@@ -45,6 +45,7 @@
 | # | Проект | Тема | Статус |
 |---|--------|------|--------|
 | 01 | [`CbS1_Networking_basics_Part_1`](./CbS1_Networking_basics_Part_1) | Основы сетей · OSI / TCP/IP · IP · ARP · ICMP · GNS3 | ✅ Done |
+| 02 | [`CbS2_Networking_basics_Part_2`](./CbS2_Networking_basics_Part_2) | Основы сетей · маршрутизация · DNS · NTP · DHCP · SSH · GNS3 | ✅ Done |
 | — | *Следующие модули* | *Будут добавляться по мере прохождения курса* | ⏳ Soon |
 
 ---
@@ -57,6 +58,10 @@ Cybersecurity-school21/
 ├── CbS1_Networking_basics_Part_1/     ← основы сетей, часть 1
 │   ├── README.md                      ← условие / теория проекта
 │   ├── src/                           ← решения и лабораторные
+│   └── ...
+├── CbS2_Networking_basics_Part_2/     ← основы сетей, часть 2
+│   ├── README.md
+│   ├── src/
 │   └── ...
 └── ...                                ← новые проекты курса
 ```
@@ -72,8 +77,8 @@ Cybersecurity-school21/
 | 🌐 Сети | 🔐 Безопасность | 🧪 Практика |
 |:-------:|:---------------:|:-----------:|
 | OSI / TCP/IP | InfoSec mindset | GNS3 labs |
-| IP · ARP · ICMP | Анализ трафика | CLI & tooling |
-| Адресация и подсети | Базовые угрозы | Peer-to-peer review |
+| IP · ARP · ICMP | SSH · Telnet | Wireshark |
+| DNS · NTP · DHCP | Статическая маршрутизация | Peer-to-peer review |
 
 </div>
 

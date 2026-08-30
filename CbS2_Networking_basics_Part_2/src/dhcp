@@ -1,0 +1,2 @@
+1. DORA = Discover, Offer, Request, ACK — четыре DHCP-пакета в трассе.
+2. Первый DHCP-пакет отправляется на IP 255.255.255.255

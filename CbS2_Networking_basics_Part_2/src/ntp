@@ -1,0 +1,2 @@
+1. Протокол 4 уровня: UDP. Source port: 123, Destination port: 123.
+2. Transmit timestamp первого NTP-пакета: Jan 1, 2000 00:00:01.168026104 UTC
