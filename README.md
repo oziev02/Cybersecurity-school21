@@ -97,8 +97,6 @@ Cybersecurity-school21/
 
 <div align="center">
 
-### Made with ☕ and curiosity
-
 [![Made for School 21](https://img.shields.io/badge/Made_for-School_21-00d4ff?style=for-the-badge)](https://21-school.ru)
 [![Keep learning](https://img.shields.io/badge/Keep-Learning-e94560?style=for-the-badge&logo=bookstack&logoColor=white)](#)
 
